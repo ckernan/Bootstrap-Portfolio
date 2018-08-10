@@ -188,5 +188,13 @@ body {
        width: 100%;
       text-align: center;
     }
+  
    
     }
+
+    @media (max-width: 768px) {
+        .container {
+            margin-left: auto!important;
+            max-width: 90%!important;
+          }
+        }
